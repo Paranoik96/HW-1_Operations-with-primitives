@@ -8,7 +8,6 @@ public class Main {
         while (true) {
             try {
                 return input.nextDouble();
-
             } catch (java.util.InputMismatchException e) {
                 input.nextLine();
             }
@@ -21,7 +20,6 @@ public class Main {
         System.out.println("Please ,enter the Second number: ");
         double secondDigit = inputAmount();
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Now choose which arithmetic action( + , - , * , / ) do you want: ");
         String strScan = sc.nextLine();
         switch (strScan) {
@@ -62,7 +60,5 @@ public class Main {
         System.out.println("cr (ASCII): " + cr);
 
         arithmeticOperations();
-
-
     }
 }
